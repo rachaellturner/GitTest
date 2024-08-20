@@ -1,7 +1,6 @@
 name: Check
 on:
   pull_request:
-    types: [review_requested, synchronize]
   pull_request_review:
 
 jobs:
